@@ -38,6 +38,7 @@
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                     <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                    <li class="nav-item"><a href="#numbers-section" class="nav-link"><span>Numbers</span></a></li>
                     <li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
                     <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
                     <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
@@ -657,10 +658,25 @@
         </div>
     </section>
 
+    <section class="ftco-section bg-light" id="numbers-section">
+        <div class="container-fluid px-md-4">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">My projects</span>
+                    <h2 class="mb-4">Numbers</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center px-sm-3">
+                <div class="col-sm-12 col-md-10 col-lg-7 col-xl-6 bg-light">
+                    <canvas id="projects-barplot" width="800" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="ftco-section bg-light ftco-project" id="projects-section">
+    <section class="ftco-section ftco-project" id="projects-section">
         <div class="container">
-            <div class="row justify-content-center mb-5 pb-5">
+            <div class="row justify-content-center pb-5">
                 <div class="col-md-7 heading-section text-center ftco-animate">
                     <span class="subheading">Blog</span>
                     <h2 class="mb-4">Our Blog</h2>
@@ -904,7 +920,7 @@
     </section>
 
 
-    <section class="ftco-section ftco-project" id="hack-section">
+    <section class="ftco-section ftco-project bg-light" id="hack-section">
         <div class="container-fluid px-md-4">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
@@ -1025,6 +1041,8 @@
                 stroke="#F96D00" />
         </svg></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="js/charts/projects-barplot.js"></script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
