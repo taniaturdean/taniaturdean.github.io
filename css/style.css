@@ -27,6 +27,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --bg-primary: #007bff;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -13287,8 +13288,8 @@ textarea.form-control {
 }
 
 .nav-tabs .nav-item {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
 }
 
 .nav-pills .nav-link {
@@ -13298,5 +13299,13 @@ textarea.form-control {
 }
 
 .nav-pills .nav-link.active {
-    background-color: var(--green);
+    background-color: #b1b493;
+}
+
+.nav-tabs {
+    border-width: 0px;
+}
+
+.project:hover {
+    cursor: pointer !important;
 }
