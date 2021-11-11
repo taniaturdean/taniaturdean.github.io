@@ -11980,6 +11980,10 @@ h5,
     color: #b1b493;
 }
 
+.services:hover .icon.blck img {
+    filter: invert(80%) sepia(18%) saturate(366%) hue-rotate(26deg) brightness(88%) contrast(84%) !important;
+}
+
 .services:hover h3 {
     color: #fff;
 }
