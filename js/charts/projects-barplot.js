@@ -1,12 +1,12 @@
 // Our labels along the x-axis
-var years = ["1st Year", "2nd Year"];
+var years = ["1st Year", "2nd Year","3rd Year"];
 // For drawing the lines
-var Data_Science = [1, 3];
-var Programming = [0, 1];
-var Finance = [0, 2];
-var Design_ = [0, 3];
-var Cons = [2, 2];
-var Reseach = [2, 1];
+var Data_Science = [1, 3,2];
+var Programming = [0, 1,0];
+var Finance = [0, 2,1];
+var Design_ = [0, 3,0];
+var Cons = [2, 2,0];
+var Reseach = [2, 1,0];
 
 Chart.defaults.color = "#c45850"
 
